@@ -1,0 +1,13 @@
+.subscription form input {
+  border: 2px solid var(--main-color);
+  outline: none;
+  padding: 5px;
+  height: 100%;
+}
+
+.subscription form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

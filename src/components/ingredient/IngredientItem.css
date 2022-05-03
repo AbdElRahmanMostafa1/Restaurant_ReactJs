@@ -1,0 +1,8 @@
+.ingredient-item h1 {
+  color: #43121d;
+}
+
+.ingredient-item img {
+  min-height: 400px;
+  object-fit: cover;
+}

@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+a {
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #b7b7b7;
+  background-color: #b7b7b7;
+}
+
+:root {
+  --main-color: #a82c48;
+  --head-text-color: #43121d;
+}
+
+/* :target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+} */
+
+.cinnabon-section {
+  background-image: url("./assets/images/cinnabon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 45px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cinnabon-section h1 {
+  color: #a82d49;
+  margin: 15px 0;
+}
+
+.cinnabon-section a {
+  margin: 40px 0;
 }

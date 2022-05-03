@@ -1,0 +1,19 @@
+.header {
+  background-image: url("../../assets/images/backgroundHeader.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+.header-text {
+  color: #43121d;
+}
+
+.header-text p {
+  margin: 20px 0;
+}
+
+/* .header-btn-section {
+  margin-top: 15px;
+} */

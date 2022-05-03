@@ -1,0 +1,15 @@
+.app-btn {
+  background-color: var(--main-color);
+  border: 2.5px solid var(--main-color);
+  color: white !important;
+  transition: 0.3s;
+  padding: 5px 10px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.app-btn:hover {
+  background-color: transparent;
+  color: var(--main-color) !important;
+  transition: 0.3s;
+}

@@ -1,0 +1,22 @@
+.app-nav {
+  padding: 0 15px !important;
+  background-color: #ffffff !important;
+  transition: 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.app-nav.on-scroll {
+  box-shadow: 0 0 7.5px;
+  opacity: 0.975;
+}
+
+.nav-link {
+  color: var(--main-color) !important;
+  font-weight: 700;
+}
+
+@media (max-width: 350px) {
+  .app-nav .logo {
+    width: 150px;
+  }
+}
