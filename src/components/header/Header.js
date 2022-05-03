@@ -22,10 +22,10 @@ const Header = () => {
 
             <section className="header-btn-section d-flex justify-content-center">
               <AppButton className="me-2">
-                order now <i class="fa-solid fa-cart-shopping"></i>
+                order now <i className="fa-solid fa-cart-shopping"></i>
               </AppButton>
               <AppButton>
-                learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+                learn more <i className="fa-solid fa-arrow-right"></i>{" "}
               </AppButton>
             </section>
           </Col>

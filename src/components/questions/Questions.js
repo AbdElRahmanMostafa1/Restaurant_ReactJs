@@ -34,9 +34,8 @@ const Questions = () => {
         <Row>
           {FAQs.map((question) => {
             return (
-              <Col md={6}>
+              <Col md={6} key={question.title}>
                 <QuestionItem
-                  key={question.title}
                   question={question.title}
                   answer={question.answer}
                 />
