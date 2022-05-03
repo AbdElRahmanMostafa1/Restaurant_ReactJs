@@ -21,9 +21,8 @@ const Blogs = () => {
         <Row>
           {blogsData.map((item) => {
             return (
-              <Col md={4}>
+              <Col md={4} key={item.title}>
                 <BlogCard
-                  key={item.title}
                   img={item.img}
                   title={item.title}
                   time={item.time}
